@@ -1,9 +1,5 @@
 #!/usr/bin/python
 
-# TODO create a fallback, if person X commits a file manually, make a fallback
-# to detect this, update the database so it doesn't mess up the whole script
-# idea, make it detect
-
 from optparse import OptionParser
 from hashlib import md5
 import sys, glob, os, re, MySQLdb, pysvn
